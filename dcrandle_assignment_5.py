@@ -27,3 +27,18 @@ for i in range(2, prime_num_input):
         break
 else:
     print(f"{prime_num_input} is prime!")
+print()
+
+# Multiplication Table Grid
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+print("    ", end="")
+for header in range(1, 11):
+    print(f"{header:4}", end="")
+print()
+
+for row in range(1, 11):
+    print(f"{row:4}", end="")
+    for col in range(1, 11):
+        print(f"{row * col:4}", end="")
+    print()
