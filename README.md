@@ -1,1 +1,7 @@
-# comp163-assignment-5
+Loop Design Documentation
+
+ Why you chose each loop type for each challenge and How my solutions work.
+    For the first challenge I chose to use a While loop so that it would keep looping until the condition of 'current_number != 1' is made false by the sequence, so it'll continue down the sequence until current_number is equal to one. In the second challenge I used the for loop so that it would run through the 'range(2, prime_num_input - 1)' and using the if-else statement it would if prime_num_input % i was equal to 0. If it was then it will print that it is not a prime number and the number it is divisible by. If the condition is false then it'll print the prime_num_input is a prime number. The third challenge I used the for loop because they are good for list and a range of numbers. The first loop runs the rows and the nested loop runs the columns.
+
+AI assistance used
+    I mainly used the AI to check if my code would print the output correctly and to see if my code was in the correct guidelines for the assignment. There was a point where I was asking the AI for help on the spacing for the third challenge but it wasn't really helpful at all. And I also figured out that the spacing didn't didn't have to be the exact spacing like in the output the test cases expect from us.
